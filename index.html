@@ -285,6 +285,75 @@ line breaks
     	<label for="head">this one</label>
 	</div>
 	
+	
+	<label for="story">textarea element:</label>
+	<textarea id="story" name="story"
+          	rows="5" cols="33">
+	inside of the textarea...
+	</textarea>
+	
+	<p>datalist and option elements: </p>
+	<label for="ice-cream-choice">Choose a flavor:</label>
+<input list="ice-cream-flavors" id="ice-cream-choice" name="ice-cream-choice" />
+
+<datalist id="ice-cream-flavors">
+    <option value="Chocolate">
+    <option value="Coconut">
+    <option value="Mint">
+    <option value="Strawberry">
+    <option value="Vanilla">
+</datalist>
+	
+	<p> select and option elements: </p>
+	<label for="pet-select">Choose a pet:</label>
+<select name="pets" id="pet-select">
+    <option value="">--Please choose an option--</option>
+    <option value="dog">Dog</option>
+    <option value="cat">Cat</option>
+    <option value="hamster">Hamster</option>
+    <option value="parrot">Parrot</option>
+    <option value="spider">Spider</option>
+    <option value="goldfish">Goldfish</option>
+</select>
+	<hr>
+	
+	<h3>Table</h3>
+	<table>
+    <thead>
+        <tr>
+            <th colspan="2">The table header</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>The table body</td>
+            <td>with two columns</td>
+        </tr>
+    </tbody>
+</table>
+	
+	<p>tr</p>
+	<table>
+    <caption>Boolean And Table</caption>
+    <tr>
+        <th scope="col">Value</th>
+        <th scope="col">True</th>
+        <th scope="col">False</th>
+    </tr>
+    <tr>
+        <th scope="row">True</th>
+        <td>T</td>
+        <td>F</td>
+    </tr>
+    <tr>
+        <th scope="row">False</th>
+        <td>F</td>
+        <td>F</td>
+    </tr>
+</table>
+	
+	
+	<hr>
     <footer>
         <h3>Footer Tag</h3>
         <p>The is nested within the footer tag</p>
