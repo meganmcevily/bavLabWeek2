@@ -184,7 +184,7 @@ line breaks
         <input type="checkbox" name="physics" id="physics">
     </div>
     
-    <p>fieldset tag: </p>
+    <p>fieldset and legend tag: </p>
     <form>
         <fieldset>
             <legend>Choose your favorite flavor</legend>
@@ -199,6 +199,36 @@ line breaks
             <label for="vanilla">vanilla</label>
         </fieldset>
     </form>
+    
+    <p>Input 1: button </p>
+    <input class="favorite styled"
+       type="button"
+       value="Add to favorites">
+    
+    <p>Input 2: checkbox</p>
+    <div>
+    <input type="checkbox" id="checkbox" name="checkbox"
+         checked>
+        <label for="checkbox">checkbox</label>
+    </div>
+    
+    <label for="tentacles">Input 3: number (10-100):</label>
+    <input type="number" id="tentacles" name="tentacles"
+       min="10" max="100">
+    
+    <p>Input 4: password</p>
+    <div>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+    </div>
+
+    <div>
+        <label for="pass">Password (8 characters minimum):</label>
+        <input type="password" id="pass" name="password"
+           minlength="8" required>
+    </div>
+
+    <input type="submit" value="Sign in">
     
     
     <footer>
