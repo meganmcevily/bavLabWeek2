@@ -230,7 +230,61 @@ line breaks
 
     <input type="submit" value="Sign in">
     
-    
+    <p>Input 5: range</p>
+
+	<div>
+  	<input type="range" id="volume" name="volume"
+         min="0" max="11">
+  		<label for="volume">Volume</label>
+	</div>
+
+	<p>Input 6: search</p>
+	<label for="site-search">Search the site:</label>
+	<input type="search" id="site-search" name="q"
+       aria-label="Search through site content">
+
+	<button>Search</button>
+
+	
+	<p>Input 7: radio</p>
+	<div>
+  		<input type="radio" id="huey" name="drone" value="huey"
+         		checked>
+  		<label for="huey">radio 1</label>
+	</div>
+
+	<div>
+  		<input type="radio" id="dewey" name="drone" value="dewey">
+  		<label for="dewey">radio 2</label>
+	</div>
+	
+	<p>Input 8: reset</p>
+	<form>
+    <div class="controls">
+
+        <label for="id">User ID:</label>
+        <input type="text" id="id" name="id" />
+
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+
+    </div>
+</form>
+	
+	
+	<label for="avatar">Input 9: file </label>
+		<input type="file"
+       	id="avatar" name="avatar"
+       	accept="image/png, image/jpeg">
+	
+	<p>Input 10: color</p>
+	<p>Choose your favorite color:</p>
+	<div>
+    	<input type="color" id="head" name="head"
+           	value="#e66465">
+    	<label for="head">this one</label>
+	</div>
+	
     <footer>
         <h3>Footer Tag</h3>
         <p>The is nested within the footer tag</p>
