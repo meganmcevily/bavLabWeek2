@@ -373,6 +373,33 @@ line breaks
 
     </tr>
 </table>
+	<hr>
+<h3>Interactive Elements</h3>
+<details>
+    <summary> The summary element</summary>
+    The details element.
+</details>
+	
+
+<button type="button" onclick="alert('Hello world!')">Click Me, the button element</button>
+	
+
+<p>The template element. Click the button below to display the hidden content from the template element.</p>
+
+<button onclick="showContent()">Show hidden content</button>
+
+<template>
+  <p>HTML icon</p>
+  <img src="https://w7.pngwing.com/pngs/363/9/png-transparent-html-computer-icons-html-css-angle-text-logo-thumbnail.png" width="214" height="204">
+</template>
+
+<script>
+function showContent() {
+  var temp = document.getElementsByTagName("template")[0];
+  var clon = temp.content.cloneNode(true);
+  document.body.appendChild(clon);
+}
+</script>
 	
 	<hr>
     <footer>
